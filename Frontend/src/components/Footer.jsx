@@ -26,7 +26,7 @@ const Footer = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-3 col-md-6 footer-contact">
-                <h3>TeamgridMatch</h3>
+                <h3>HRMS Portal</h3>
                 <p>
                   Kolkata <br />
                     West Bengal
@@ -127,12 +127,12 @@ const Footer = () => {
           <div className="copyright">
             &copy; Copyright{" "}
             <strong>
-              <span>teamMatch</span>
+              <span>HRMS Portal</span>
             </strong>
             . All Rights Reserved
           </div>
           <div className="credits">
-            Designed by <a href="#">copypastedMatch</a>
+            Designed by <a href="#">HRMS Portal</a>
           </div>
         </div>
       </footer>

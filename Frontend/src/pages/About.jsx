@@ -12,26 +12,23 @@ const About = () => {
           <div className="row content">
             <div className="col-lg-6">
               <p>
-              Pain itself is very important to the world of work and the whole world, but it’s an exception to this rule.
+                Dedicated to modernizing workplace management, our platform provides comprehensive tools to oversee your organization's most valuable asset: its people.
               </p>
               <ul>
                 <li>
-                  <i className="ri-check-double-line"></i> Ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat
+                  <i className="ri-check-double-line"></i> Seamless Employee Onboarding & Tracking
                 </li>
                 <li>
-                  <i className="ri-check-double-line"></i> Duis aute irure dolor
-                  in reprehenderit in voluptate velit
+                  <i className="ri-check-double-line"></i> Advanced Leave & Attendance Management
                 </li>
                 <li>
-                  <i className="ri-check-double-line"></i> Ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat
+                  <i className="ri-check-double-line"></i> Secure Document Handling & Approval Workflows
                 </li>
               </ul>
             </div>
             <div className="col-lg-6 pt-4 pt-lg-0">
               <p>
-              At teamMatch, we are passionate about revolutionizing the job search process. Our platform is built to connect ambitious job seekers with dynamic employers, streamlining the path to meaningful employment. By leveraging advanced technology and industry insights, we offer tailored job matches and intuitive tools that make the search process efficient and effective. Our commitment is to empower individuals and organizations alike, providing personalized support and resources to achieve their career and hiring goals. Join us in redefining how talent meets opportunity and take the first step towards a brighter professional future.
+                We are passionate about revolutionizing the way companies manage their workforce. Our platform is built to connect HR departments with their employees, streamlining the path to effective resource management. By leveraging advanced technology, we offer tailored workflows and intuitive tools that make managing attendance, documents, and organizational data incredibly efficient. Our commitment is to empower HR teams, providing you with the resources to cultivate a happier, more productive workplace.
               </p>
               <a href="#" className="btn-learn-more">
                 Learn More

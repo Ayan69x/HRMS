@@ -38,10 +38,9 @@ const Home = () => {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <h1>Choose Better Job For Your Career</h1>
+              <h1>Empower Your Workforce</h1>
               <h2>
-              Welcome to teamMatch go-to destination for discovering top talent and exciting career opportunities. 
-              We bridge the gap between employers seeking exceptional candidates and professionals eager to take their careers to the next level.
+              Welcome to your all-in-one HRMS destination for managing top talent and optimizing internal operations. We bridge the gap between human resources and employees, providing a seamless experience for attendance tracking, leave management, and organizational growth.
               </h2>
               <div className="d-flex justify-content-center justify-content-lg-start">
                  
@@ -63,29 +62,7 @@ const Home = () => {
       </section>
 
       <main id="main">
-      <section id="clients" className="clients section-bg">
-      <div className="container client-container">
-        <div
-          className="client-row"
-          style={{
-            transform: `translateX(-${(currentIndex % clientsList.length) * 16.66}%)`,
-          }}
-        >
-          {clientsList.map((client, index) => (
-            <div
-              key={index}
-              className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center client-logo"
-            >
-              <img
-                src={client}
-                className="img-fluid"
-                alt={`Client ${index + 1}`}
-              />
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
+
 
         <section id="why-us" className="why-us section-bg">
           
@@ -96,10 +73,7 @@ const Home = () => {
             <div className="section-title">
               <h2>Frequently Asked Questions</h2>
               <p>
-                Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-                ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-                quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-                Quia fugiat sit in iste officiis commodi quidem hic quas.
+                Find answers to the most common questions about our platform's capabilities, from leave management and attendance tracking to secure document submission and administrative tools.
               </p>
             </div>
 
@@ -112,7 +86,7 @@ const Home = () => {
                     className="collapse"
                     data-bs-target="#faq-list-1"
                   >
-                    What types of jobs are available on this platform?{" "}
+                    What is the main purpose of this HRMS platform?{" "}
                     <i className="bx bx-chevron-down icon-show"></i>
                     <i className="bx bx-chevron-up icon-close"></i>
                   </a>
@@ -122,10 +96,7 @@ const Home = () => {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      Our platform offers a wide range of jobs, including
-                      full-time, part-time, remote, freelance, and internships
-                      across various industries like IT, healthcare, education,
-                      marketing, and more.
+                      Our HRMS platform is designed to streamline internal human resources tasks, including attendance tracking, leave management, document submission, and employee directories.
                     </p>
                   </div>
                 </li>
@@ -137,7 +108,7 @@ const Home = () => {
                     data-bs-target="#faq-list-2"
                     className="collapsed"
                   >
-                    How do I apply for a job?{" "}
+                    How do I request time off or sick leave?{" "}
                     <i className="bx bx-chevron-down icon-show"></i>
                     <i className="bx bx-chevron-up icon-close"></i>
                   </a>
@@ -147,10 +118,7 @@ const Home = () => {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      To apply for a job, first create an account, complete your
-                      profile, and upload your resume. Then, browse through job
-                      listings, click on the one you’re interested in, and
-                      follow the instructions to submit your application.
+                      You can quickly request time off by navigating to the 'Leaves' dashboard, selecting the dates and type of leave, and submitting it to your manager for approval.
                     </p>
                   </div>
                 </li>
@@ -162,7 +130,7 @@ const Home = () => {
                     data-bs-target="#faq-list-3"
                     className="collapsed"
                   >
-                    Is there a fee to use the platform?{" "}
+                    Can I use this platform to submit my official documents?{" "}
                     <i className="bx bx-chevron-down icon-show"></i>
                     <i className="bx bx-chevron-up icon-close"></i>
                   </a>
@@ -172,10 +140,7 @@ const Home = () => {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      No, our platform is free for job seekers. Employers may
-                      pay for premium job postings or additional features, but
-                      job seekers can browse, apply, and manage their job
-                      applications without any cost.
+                      Yes! You can securely upload onboarding, compliance, and official identity documents directly through our Document Submission portal for HR review.
                     </p>
                   </div>
                 </li>
@@ -187,7 +152,7 @@ const Home = () => {
                     data-bs-target="#faq-list-4"
                     className="collapsed"
                   >
-                    How can I improve my chances of getting hired?
+                    How is my personal employee data secured?
                     <i className="bx bx-chevron-down icon-show"></i>
                     <i className="bx bx-chevron-up icon-close"></i>
                   </a>
@@ -197,11 +162,7 @@ const Home = () => {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      To improve your chances, ensure your profile is complete
-                      and up-to-date, tailor your resume and cover letter for
-                      each job, and apply early. Use relevant keywords in your
-                      profile that match the job descriptions you’re interested
-                      in.
+                      We utilize industry-standard encryption and strict role-based access control to ensure that only authorized HR personnel and your direct managers can view your sensitive information.
                     </p>
                   </div>
                 </li>
@@ -213,7 +174,7 @@ const Home = () => {
                     data-bs-target="#faq-list-5"
                     className="collapsed"
                   >
-                    Can I apply for jobs outside of my location?{" "}
+                    Are managers able to allocate resources remotely?{" "}
                     <i className="bx bx-chevron-down icon-show"></i>
                     <i className="bx bx-chevron-up icon-close"></i>
                   </a>
@@ -223,10 +184,7 @@ const Home = () => {
                     data-bs-parent=".faq-list"
                   >
                     <p>
-                      Yes, many companies offer remote work options or are open
-                      to hiring candidates from different locations. You can
-                      filter jobs based on location or look specifically for
-                      remote opportunities.
+                      Absolutely. Managers and administrators can effortlessly assign tasks, approve leaves, and audit organizational charts directly from this cloud-hosted platform from anywhere.
                     </p>
                   </div>
                 </li>

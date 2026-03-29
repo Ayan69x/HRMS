@@ -121,19 +121,7 @@ const Header = () => {
             {/* <li>
               <Link className="nav-link scrollto" to="/team">Team</Link>
             </li> */}
-            <li className="dropdown">
-            <Link className="nav-link scrollto" to="/job">Job</Link>
-              <ul>
-                <li>
-                  <a onClick={() => navigate("/wantjob")}>Want A Job</a>
-                </li>
-                {role === "admin" || role === "super_admin" ? (
-                  <li>
-                    <a onClick={() => navigate("/postjob")}>Post A Job</a>
-                  </li>
-                ) : null}
-              </ul>
-            </li>
+
             <li>
               {token ? (
                 <Link
