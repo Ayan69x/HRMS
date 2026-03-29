@@ -4,7 +4,7 @@ const path = require("path");
 const maxSize = 2 * 1024 * 1024;
 
 const storage = multer.diskStorage({
-  destination: "my-upload/images",
+  destination: "/tmp",
   filename: function (req, file, cb) {
     const uniqueSuffix = Date.now() + "-" + Math.round(Math.random() * 1e9);
     cb(null, uniqueSuffix + file.originalname);
