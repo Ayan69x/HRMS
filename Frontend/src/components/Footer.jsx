@@ -102,19 +102,18 @@ const Footer = () => {
                   success.
                 </p>
                 <div className="social-links mt-3">
-                  <a href="#" className="twitter">
-                    <i className="bx bxl-twitter"></i>
+                  <a href="https://x.com/Ayan_Biswas_96" target="_blank" rel="noopener noreferrer" className="twitter" title="X">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style={{ verticalAlign: 'middle', paddingBottom: '2px' }}>
+                      <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.873 11.633Z"/>
+                    </svg>
                   </a>
-                  <a href="#" className="facebook">
-                    <i className="bx bxl-facebook"></i>
-                  </a>
-                  <a href="#" className="instagram">
+                  <a href="https://www.instagram.com/ayan_69x/" target="_blank" rel="noopener noreferrer" className="instagram">
                     <i className="bx bxl-instagram"></i>
                   </a>
-                  <a href="#" className="github">
+                  <a href="https://github.com/Ayan69x" target="_blank" rel="noopener noreferrer" className="github">
                     <i className="bx bxl-github"></i>
                   </a>
-                  <a href="#" className="linkedin">
+                  <a href="https://www.linkedin.com/in/ayan-biswas-80239138b/" target="_blank" rel="noopener noreferrer" className="linkedin">
                     <i className="bx bxl-linkedin"></i>
                   </a>
                 </div>
