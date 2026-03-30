@@ -4,23 +4,6 @@ const Footer = () => {
   return (
     <>
       <footer id="footer">
-        <div className="footer-newsletter">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-6">
-                <h4>Join Our Newsletter</h4>
-                <p>
-                  Stay updated! Join our newsletter for the latest news, tips,
-                  and exclusive offers.
-                </p>
-                <form action="" method="post">
-                  <input type="email" name="email" />
-                  <input className="btn1 btn2" type="submit" value="Subscribe" />
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div className="footer-top">
           <div className="container">
