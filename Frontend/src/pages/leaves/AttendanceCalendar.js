@@ -21,7 +21,7 @@ const AttendanceCalendar = () => {
   const { leaveAllocations } = useSelector((state) => state.leaveAllocations);
   
   
-  const allocatedLeaves = leaveAllocations.filter((allocation)=> allocation?.employeeId?._id === userId)
+  const allocatedLeaves = (leaveAllocations || []).filter((allocation)=> allocation?.employeeId?._id === userId)
   console.log(allocatedLeaves);
 
   useEffect(() => {
@@ -32,7 +32,7 @@ const AttendanceCalendar = () => {
 
   // Get employee role based on employee ID
   const getEmployeeRole = (employeeId) => {
-    const employee = employees.find((emp) => emp?.user?._id === employeeId);
+    const employee = (employees || []).find((emp) => emp?.user?._id === employeeId);
     return employee?.user?.roleId?._id || null;
   };
 
